@@ -1,0 +1,446 @@
+[
+    {
+        "input": "start",
+        "response": "You wake up in a mysterious forest. Do you go 'left' or 'right'?",
+        "next_options": [
+            "left",
+            "right"
+        ]
+    },
+    {
+        "input": "left",
+        "response": "You find an old abandoned house. Do you 'enter' or 'ignore'?",
+        "next_options": [
+            "enter",
+            "ignore"
+        ]
+    },
+    {
+        "input": "right",
+        "response": "You reach a river with a broken bridge. Do you 'swim' or 'turn back'?",
+        "next_options": [
+            "swim",
+            "turn back"
+        ]
+    },
+    {
+        "input": "enter",
+        "response": "Inside the house, you see a staircase and a dark basement. Do you go 'up' or 'down'?",
+        "next_options": [
+            "up",
+            "down"
+        ]
+    },
+    {
+        "input": "ignore",
+        "response": "You continue walking and find a cave. Do you 'enter' or 'walk past'?",
+        "next_options": [
+            "enter",
+            "walk past"
+        ]
+    },
+    {
+        "input": "swim",
+        "response": "You start swimming but see something moving underwater. Do you 'keep going' or 'return'?",
+        "next_options": [
+            "keep going",
+            "return"
+        ]
+    },
+    {
+        "input": "turn back",
+        "response": "You return and see a hidden trail. Do you 'follow' it or 'rest'?",
+        "next_options": [
+            "follow",
+            "rest"
+        ]
+    },
+    {
+        "input": "up",
+        "response": "Upstairs, you find a dusty old book. Do you 'read' or 'ignore'?",
+        "next_options": [
+            "read",
+            "ignore"
+        ]
+    },
+    {
+        "input": "down",
+        "response": "You descend into the basement and hear a noise. Do you 'hide' or 'investigate'?",
+        "next_options": [
+            "hide",
+            "investigate"
+        ]
+    },
+    {
+        "input": "walk past",
+        "response": "You keep walking and find an abandoned well. Do you 'look inside' or 'walk away'?",
+        "next_options": [
+            "look inside",
+            "walk away"
+        ]
+    },
+    {
+        "input": "keep going",
+        "response": "You swim further and find an island. Do you 'explore' or 'build a raft'?",
+        "next_options": [
+            "explore",
+            "build a raft"
+        ]
+    },
+    {
+        "input": "return",
+        "response": "You turn back but notice a hidden cave entrance. Do you 'enter' or 'ignore'?",
+        "next_options": [
+            "enter",
+            "ignore"
+        ]
+    },
+    {
+        "input": "follow",
+        "response": "The trail leads to a village. Do you 'talk to people' or 'keep walking'?",
+        "next_options": [
+            "talk to people",
+            "keep walking"
+        ]
+    },
+    {
+        "input": "rest",
+        "response": "You take a rest and wake up to find a note beside you. Do you 'read it' or 'ignore it'?",
+        "next_options": [
+            "read it",
+            "ignore it"
+        ]
+    },
+    {
+        "input": "read",
+        "response": "The book contains a treasure map! You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "hide",
+        "response": "You hide in the basement and find a secret tunnel leading outside. You escape safely!",
+        "next_options": []
+    },
+    {
+        "input": "investigate",
+        "response": "You find a magical artifact, but it's cursed! Game over. \ud83d\udc80",
+        "next_options": []
+    },
+    {
+        "input": "look inside",
+        "response": "You find a hidden key inside the well. It opens a secret door in the house!",
+        "next_options": [
+            "enter house"
+        ]
+    },
+    {
+        "input": "walk away",
+        "response": "You ignore the well and keep moving forward, reaching a village.",
+        "next_options": [
+            "talk to people",
+            "keep walking"
+        ]
+    },
+    {
+        "input": "explore",
+        "response": "The island has a hidden temple with ancient secrets. You become famous!",
+        "next_options": []
+    },
+    {
+        "input": "build a raft",
+        "response": "You build a raft and escape the island safely!",
+        "next_options": []
+    },
+    {
+        "input": "talk to people",
+        "response": "The villagers help you find your way home. You win! \ud83c\udfe1",
+        "next_options": []
+    },
+    {
+        "input": "keep walking",
+        "response": "You get lost in the jungle and never return. Game over. \ud83d\udc80",
+        "next_options": []
+    },
+    {
+        "input": "read it",
+        "response": "The note reveals a hidden treasure nearby. You dig and find gold! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "ignore it",
+        "response": "You ignore the note and walk away, missing your chance for treasure.",
+        "next_options": [
+            "keep walking"
+        ]
+    },
+    {
+        "input": "enter house",
+        "response": "You enter the house and find a locked door. Do you 'use the key' or 'search for another way'?",
+        "next_options": [
+            "use the key",
+            "search for another way"
+        ]
+    },
+    {
+        "input": "use the key",
+        "response": "The key unlocks the door, revealing a treasure room! You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "search for another way",
+        "response": "You find a hidden passage behind a bookshelf. Do you 'enter' or 'ignore' it?",
+        "next_options": [
+            "enter",
+            "ignore"
+        ]
+    },
+    {
+        "input": "enter",
+        "response": "The passage leads to a dark dungeon. Do you 'explore' or 'turn back'?",
+        "next_options": [
+            "explore",
+            "turn back"
+        ]
+    },
+    {
+        "input": "explore",
+        "response": "You find a chest filled with gold and jewels! You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "turn back",
+        "response": "You return to the house and find the door locked again. Game over. \ud83d\udc80",
+        "next_options": []
+    },
+    {
+        "input": "ignore",
+        "response": "You ignore the passage and leave the house. You find nothing. Game over. \ud83d\udc80",
+        "next_options": []
+    },
+    {
+        "input": "keep walking",
+        "response": "You walk further and find a mysterious portal. Do you 'enter' or 'ignore' it?",
+        "next_options": [
+            "enter",
+            "ignore"
+        ]
+    },
+    {
+        "input": "enter",
+        "response": "The portal takes you to a magical land. Do you 'explore' or 'find a way back'?",
+        "next_options": [
+            "explore",
+            "find a way back"
+        ]
+    },
+    {
+        "input": "explore",
+        "response": "You discover a kingdom ruled by a wise king. He rewards you",
+        "next_options": []
+    },
+    {
+        "input": "find a way back",
+        "response": "You find a way back home but bring a magical artifact with you. You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "ignore",
+        "response": "You ignore the portal and continue walking. You find nothing. Game over. \ud83d\udc80",
+        "next_options": []
+    },
+    {
+        "input": "talk to people",
+        "response": "The villagers tell you about a dangerous dragon nearby. Do you 'fight' or 'avoid' it?",
+        "next_options": [
+            "fight",
+            "avoid"
+        ]
+    },
+    {
+        "input": "fight",
+        "response": "You defeat the dragon and save the village! You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "avoid",
+        "response": "You avoid the dragon but miss the chance to become a hero. Game over. \ud83d\udc80",
+        "next_options": []
+    }, 
+    {
+            "input": "enter house",
+            "response": "You enter the house and find a locked door. Do you 'use the key' or 'search for another way'?",
+            "next_options": [
+                "use the key",
+                "search for another way"
+            ]
+    },
+    {
+        "input": "use the key",
+        "response": "The key unlocks the door, revealing a treasure room! You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "search for another way",
+        "response": "You find a hidden passage behind a bookshelf. Do you 'enter' or 'ignore' it?",
+        "next_options": [
+            "enter",
+            "ignore"
+        ]
+    },
+    {
+        "input": "enter",
+        "response": "The passage leads to a dark dungeon. Do you 'explore' or 'turn back'?",
+        "next_options": [
+            "explore",
+            "turn back"
+        ]
+    },
+    {
+        "input": "explore",
+        "response": "You find a chest filled with gold and jewels! You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "turn back",
+        "response": "You return to the house and find the door locked again. Game over. \ud83d\udc80",
+        "next_options": []
+    },
+    {
+        "input": "ignore",
+        "response": "You ignore the passage and leave the house. You find nothing. Game over. \ud83d\udc80",
+        "next_options": []
+    },
+    {
+        "input": "keep walking",
+        "response": "You walk further and find a mysterious portal. Do you 'enter' or 'ignore' it?",
+        "next_options": [
+            "enter",
+            "ignore"
+        ]
+    },
+    {
+        "input": "enter",
+        "response": "The portal takes you to a magical land. Do you 'explore' or 'find a way back'?",
+        "next_options": [
+            "explore",
+            "find a way back"
+        ]
+    },
+    {
+        "input": "explore",
+        "response": "You discover a kingdom ruled by a wise king. He rewards you with treasure! You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "find a way back",
+        "response": "You find a way back home but bring a magical artifact with you. You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "ignore",
+        "response": "You ignore the portal and continue walking. You find nothing. Game over. \ud83d\udc80",
+        "next_options": []
+    },
+    {
+        "input": "talk to people",
+        "response": "The villagers tell you about a dangerous dragon nearby. Do you 'fight' or 'avoid' it?",
+        "next_options": [
+            "fight",
+            "avoid"
+        ]
+    },
+    {
+        "input": "fight",
+        "response": "You defeat the dragon and save the village! You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "avoid",
+        "response": "You avoid the dragon but miss the chance to become a hero. Game over. \ud83d\udc80",
+        "next_options": []
+    },
+    {
+        "input": "read it",
+        "response": "The note reveals a hidden treasure nearby. You dig and find gold! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "ignore it",
+        "response": "You ignore the note and walk away, missing your chance for treasure.",
+        "next_options": [
+            "keep walking"
+        ]
+    },
+    {
+        "input": "build a raft",
+        "response": "You build a raft and escape the island safely!",
+        "next_options": []
+    },
+    {
+        "input": "explore",
+        "response": "The island has a hidden temple with ancient secrets. You become famous!",
+        "next_options": []
+    },
+    {
+        "input": "look inside",
+        "response": "You find a hidden key inside the well. It opens a secret door in the house!",
+        "next_options": [
+            "enter house"
+        ]
+    },
+    {
+        "input": "walk away",
+        "response": "You ignore the well and keep moving forward, reaching a village.",
+        "next_options": [
+            "talk to people",
+            "keep walking"
+        ]
+    },
+    {
+        "input": "read",
+        "response": "The book contains a treasure map! You win! \ud83c\udf89",
+        "next_options": []
+    },
+    {
+        "input": "hide",
+        "response": "You hide in the basement and find a secret tunnel leading outside. You escape safely!",
+        "next_options": []
+    },
+    {
+        "input": "investigate",
+        "response": "You find a magical artifact, but it's cursed! Game over. \ud83d\udc80",
+        "next_options": []
+    },
+    {
+        "input": "keep going",
+        "response": "You swim further and find an island. Do you 'explore' or 'build a raft'?",
+        "next_options": [
+            "explore",
+            "build a raft"
+        ]
+    },
+    {
+        "input": "return",
+        "response": "You turn back but notice a hidden cave entrance. Do you 'enter' or 'ignore'?",
+        "next_options": [
+            "enter",
+            "ignore"
+        ]
+    },
+    {
+        "input": "follow",
+        "response": "The trail leads to a village. Do you 'talk to people' or 'keep walking'?",
+        "next_options": [
+            "talk to people",
+            "keep walking"
+        ]
+    },
+    {
+        "input": "rest",
+        "response": "You take a rest and wake up to find a note beside you. Do you 'read it' or 'ignore it'?",
+        "next_options": [
+            "read it",
+            "ignore it"
+        ]
+    }
+]
